@@ -49,6 +49,7 @@
 
 #bnr {
   background-image: url(/assets/hero-bg.png);
+  opacity: 0.9;
   width: 1280px;
   height: 560px;
   margin: 10px;
@@ -198,8 +199,8 @@
 
 /* Solution sec done  */
 #sl {
-  background: #f9f1f1;
-  border: solid red;
+  background: #f4f1f1;
+  /* border: solid red; */
   width: 1280px;
   height: 240px;
   margin: 10px;
@@ -219,7 +220,7 @@
 }
 /* sl complete */
 #last {
-  background: #838489;
+  background: #344361;
   width: 1280px;
   height: 200px;
   margin: 10px;
