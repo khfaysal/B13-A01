@@ -1,36 +1,86 @@
 #nav {
-  margin: 20px;
-  padding: 15px, 10px;
+  background: #ffffff;
+  width: 1146px;
+  margin: 10px;
+  height: 50px;
+  padding: 15px 0px 0px 130px;
   display: flex;
   justify-content: space-between;
-  background: #d9c9c9;
   align-items: center;
-  border: solid rebeccapurple;
+  border: solid red;
 }
 
 #nav .logo img {
-  width: 80px;
-  height: 40px;
+  width: 90px;
+  height: 45px;
 }
 #nav .ref3 {
-  color: white;
-  text-decoration: none;
   list-style: none;
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  align-items: center;
+  gap: 3rem;
 }
 #nav .ref3 a {
+  font-weight: semibold;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
-
+/* Universal Button Style */
 .btn {
-  background: #187125;
+  background: #1f7e2d;
   color: white;
-  width: 170px;
+  font-weight: bold;
+  width: 190px;
   height: 40px;
   border-radius: 4px;
   cursor: pointer;
+}
+.btnn {
+  margin-top: 20px;
+  width: 190px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  border-color: white;
+}
+/* NavBar Complete........... */
+
+#bnr {
+  background-image: url(/assets/hero-bg.png);
+  width: 1280px;
+  height: 560px;
+  margin: 10px;
+  padding-top: 80px;
+  /* padding-bottom: 40px; */
+  text-align: center;
+  border: solid red;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+#bnr .heading h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#bnr .heading h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #18b36a;
+}
+
+#bnr p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bnr .fline h4 {
+  background: white;
+  width: 200px;
+  height: 20px;
+  border-radius: 11px;
+  text-align: center;
+  /* color: white; */
 }
