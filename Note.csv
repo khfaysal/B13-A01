@@ -1,1 +1,3 @@
   vertical-align: middle; --> web automatically take margin bottom. to overcome this we can use this.
+
+  list-style: none;  --> to remove the default bullet points of ul and ol.
