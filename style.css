@@ -217,3 +217,38 @@
 #sl .alada .thisone {
   list-style: none;
 }
+/* sl complete */
+#last {
+  background: #838489;
+  width: 1280px;
+  height: 200px;
+  margin: 10px;
+  padding-top: 80px;
+  text-align: center;
+}
+#last .ls {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px 0px 100px;
+}
+
+#last .ls h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+.links img {
+  width: 3px;
+  height: 3px;
+}
+
+#last p {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
