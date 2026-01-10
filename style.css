@@ -11,16 +11,14 @@
   /* position: fixed; */
   /* top: 0px; */
 }
-/* .nv {
+.nv {
   position: fixed;
   top: 0px;
   width: 1146px;
-  margin: 10px;
-  height: 50px;
-  z-index: 100;
+  z-index: 1;
   background: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
+}
 
 #nav .logo img {
   width: 90px;
@@ -75,7 +73,7 @@
   opacity: 0.9;
   width: 1280px;
   height: 560px;
-  margin: 10px;
+  margin: 80px 10px 10px 10px;
   padding-top: 80px;
   /* padding-bottom: 40px; */
   text-align: center;
