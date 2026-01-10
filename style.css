@@ -26,6 +26,7 @@
 }
 /* Universal Button Style */
 .btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #1f7e2d;
   color: white;
   font-weight: bold;
@@ -34,6 +35,11 @@
   border-radius: 9px;
   border-color: #14c472;
   cursor: pointer;
+}
+.btn:hover {
+  background: white;
+  color: #14c472;
+  border-color: #14c472;
 }
 .btnn {
   margin-top: 20px;
@@ -44,6 +50,11 @@
   background: none;
   color: white;
   border-color: white;
+}
+.btnn:hover {
+  background: rgb(0, 0, 0);
+  color: #14c472;
+  border-color: #14c472;
 }
 /* NavBar Complete........... */
 
