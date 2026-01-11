@@ -13,3 +13,8 @@
   list-nth-child(n)  --> to style the nth item of the list.
   li*5  --> to create 5 list items in one go in emmet.
   
+  <input type="text"required>
+
+  flex--> make things flexible
+  justify-content --> do things in landscape
+  align-item --> do thing in vertical
