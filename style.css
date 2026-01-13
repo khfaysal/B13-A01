@@ -274,3 +274,7 @@
   font-size: 14px;
   margin-top: 10px;
 }
+#sslink {
+  display: flex;
+  flex-direction: column;
+}
